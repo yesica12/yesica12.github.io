@@ -1,0 +1,632 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --celesteBebe: #F3F5FC;
+    --AzulElectrico: #0A3871;
+    --blanco: #FFFFFF;
+    --grisBorde: #00000014;
+    --MensajeBusqueda:#343A40;
+    --MensajePeque:#495057;
+    --letraCifrar:#D8DFE8;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background: skyblue;
+}
+
+#principalTotalDesaio{  
+    max-width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: var(--celesteBebe);
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#logoAlura{
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+    gap: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#principalDesafio{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 4rem;
+    position: absolute;
+    top: 40px;
+    left: 240px;
+}
+
+.secundarioDesafio{
+    width: 680px;
+    margin: 0px;
+    padding: 0px;
+
+}
+#CampoResponsive{
+    width: 680;
+    height: 811px;
+}
+#primerCampo{
+    width: 680px;
+    resize: none;
+    overflow: hidden;
+    min-height: 48px;
+    max-height: 416px; 
+    background: var(--celesteBebe);
+    color: var(--AzulElectrico);
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    border: 0;
+    resize: none;
+    box-shadow: none;
+    overflow: hidden;
+    outline:0 none !important;
+    outline-width: 0 !important;
+    word-break: break-all;
+    padding: 0px;
+    margin-top: 128px;
+    
+}
+
+#primerCampo::placeholder {
+    color: var(--AzulElectrico);
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    width: 577px;
+    min-height: 48px;
+
+}
+
+
+.CampoBuscador{
+    width: 400px;
+    height: 944px;
+    border-radius: 32px;
+    background: var(--blanco);
+    box-shadow: 0px 24px 32px -8px var(--grisBorde);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Busqueda{
+    Width:336px;
+    Height:458px;
+    padding: 0px;
+    margin: 0px;
+    gap: 32px;
+}
+
+#imagenBusqueda{
+    
+    width: 336px;
+    height: 304px;
+    padding: 0px;
+
+}
+
+#BusquedaMensaje{
+
+    padding: 0px;
+    margin: 0px;
+    width: 336px;
+    height: 122px;
+    /* display: flex;
+    flex-direction: column; */
+    gap: 16px; 
+
+}
+
+
+#BusquedaMensaje h2{
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--MensajeBusqueda);
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#BusquedaMensaje p{
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--MensajePeque);
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#campoBotones{
+    width: 680px;
+    height: 91px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0px;
+    margin: 0px;
+    align-content: center;
+}
+
+
+#Advertencias{
+    display: flex;
+    width: 229px;
+    height: 18px;
+    gap: 8px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#ImaAdvertencias{
+    width: 16px;
+    height: 16px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#Advertencias p{
+    width: 205px;
+    height: 18px;
+    opacity: 80%;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.botones{
+    width: 680px;
+    height:67px;
+    display: flex;
+    gap: 24px;
+    padding: 0px;
+    margin: 0px;
+
+}
+.aplicable{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+#cifrar{
+    background: var(--AzulElectrico);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    font-family: 'Inter', sans-serif;
+    color: var(--letraCifrar);
+}
+
+#descifrar{
+    border: 1px solid var(--AzulElectrico);
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    font-family: 'Inter', sans-serif;
+    color: var(--AzulElectrico);
+
+
+}
+#DesafioEscondido{
+    margin: 0px;
+    padding: 0px;
+}
+
+#campoCopiado{
+    width: 400px;
+    border-radius: 32px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 8px;
+
+}
+#segundoCampo{
+    width: 336px;
+    padding: 20px;
+    height: 781px;
+    color: var(--MensajePeque);
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    border: 0;
+    resize: none;
+    box-shadow: none;
+    overflow: hidden;
+    outline:0 none !important;
+    outline-width: 0 !important;
+    word-break: break-all;
+    margin: 0px;
+    text-align: left;
+
+}
+.botonCopiar{
+    width: 336px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid var(--AzulElectrico);
+    background-color: var(--blanco);
+    color: var(--AzulElectrico);
+
+}
+
+
+
+@media (max-width: 768px) {
+    #principalTotalDesaio{
+        width: 768px;
+        height: 1384px;
+        
+    }
+    
+    #logoAlura{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+
+
+    }
+    #logoAlura img{
+        position: absolute;
+        top: 73.5px;
+        left: 0px;
+
+    }
+
+
+    #principalDesafio{
+        left: 40px;
+        top: 240px;
+        margin: 0px;
+        flex-direction: column;
+        gap: 64px;
+        
+    }
+
+    #CampoResponsive{
+        width: 688;
+        height: 596px;
+    }
+
+    .secundarioDesafio{
+        width: 688px;
+
+
+        
+    }
+       
+    #primerCampo{
+        width: 688px;
+        margin: 0px;
+    }
+    #campoBotones{
+        width: 688px;
+        height: 100px;
+        justify-content: space-between;
+        row-gap: 8px;
+    
+    
+    }
+    #Advertencias{
+
+        width: 229px;
+ 
+     }
+    .botones{ 
+        width: 688px;
+    
+    }
+    .aplicable{
+        width: 332px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    #cifrar{
+        color: var(--blanco);
+    }
+
+
+    .CampoBuscador{
+        width: 688px;
+        height: 133px;
+        padding: 32px;
+        gap: 32px;
+        box-sizing: border-box;
+        flex-direction: column;
+
+
+    }
+    #Busqueda{
+        width: 624px;
+        height: 69px;
+
+    }
+    
+    #imagenBusqueda{
+        display: none;
+    }
+
+    #BusquedaMensaje{
+        padding: 0px;
+        margin: 0px;
+        width: 624px;
+        height: 69px;
+    }
+
+    #BusquedaMensaje h2{
+        width: 624px;
+        height: 29px;
+
+    
+    }
+    #BusquedaMensaje p{
+        width: 624px;
+        height: 24px;
+        
+    }
+    #DesafioEscondido{
+        margin: 0px;
+        padding: 0px;
+        position: relative; 
+        top: 105px;
+    }
+    #campoCopiado{
+        /* position: absolute; */
+        width: 688px;
+        /* height: 343px; */
+        left: 0px;
+        top: 0px;
+        background: var(--blanco);
+        gap: 32px;
+        padding: 32px;
+        box-sizing: border-box;
+        text-align: -webkit-match-parent;    
+
+    }
+    #segundoCampo{
+        width: 624px;
+        max-height: 180px;
+        padding: 0px;
+
+        
+    }
+
+    .botonCopiar{
+        width: 624px;
+        height: 67px;
+        padding: 24px;
+
+    }
+
+}
+
+
+
+@media (max-width: 375px) {
+
+    #principalTotalDesaio{
+        max-width: 375px;
+        height: 993px;
+
+    }
+
+    #logoAlura{
+        width: 375px;
+        height: 96px;
+        padding: 0px;
+        margin: 0px;
+        top: 0px;
+        float: left;
+        left: 0px; 
+
+
+    }
+
+    #logoAlura img{
+        position: absolute;
+        padding: 0px;
+        margin: 0px;
+        top: 24px;
+        left: -24px;
+
+
+        
+    }
+
+    #principalDesafio{
+        top: 152px;
+        left: 16px;
+        justify-content: center;
+        align-content: center;
+        gap: 64px;
+    }
+    .secundarioDesafio{
+        width: 343px; 
+    }
+    #CampoResponsive{
+        width: 343px; 
+        height: 299px;
+        min-height: 299px;
+        /* max-height: 624px; */
+        display: table-cell;
+    }
+    
+    
+    #primerCampo {
+        width: 343px;
+        resize: none;
+        overflow: hidden;
+
+        min-height: 48px;
+    /* para aplicacion responsi     */
+        max-height: 624px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 0px;
+        margin: 0px;
+
+    }
+    #campoBotones{
+        width: 343px;
+        height: 192px;
+
+    }
+    .botones{
+        width: 343px;
+        height: 158px;
+        display: flex;
+        flex-direction: column;
+
+    
+    }
+    .aplicable{
+        width: 343px;
+        height: 67px;
+        
+    }
+    
+    #Advertencias{
+
+       width: 229px;
+
+    }
+
+    .CampoBuscador{
+        width: 327px;
+        height: 186px;
+
+        margin: 0 auto;
+
+
+    }
+
+
+    #Busqueda{
+        width: 263px;
+        height: 122px;
+        /* top: 707px; */
+        left: 0px;
+        padding: 32px;
+        border-radius: 32px;
+        gap: 32px;
+
+    }
+
+    #BusquedaMensaje {
+        width: 263px;
+        height: 122px;
+        gap: 16px;
+
+    }
+
+    #BusquedaMensaje h2{
+        width: 263px;
+        height: 58px;
+    
+    }
+    #BusquedaMensaje p{
+        width: 263px;
+        height: 48px;        
+    }
+    #Advertencias{
+        width: 229px;
+        height: 18px;
+        /* top: 451px;
+        left: 16px; */
+        gap: 8px;
+
+    }
+    #ImaAdvertencias{
+        width: 16px;
+        height: 16px;
+
+    }
+    #Advertencias p{
+        width: 205px;
+        height: 18px;
+    }
+
+    #DesafioEscondido{
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+    
+
+    }
+
+    #campoCopiado{
+        width: 343px;
+        /* height:595px; */
+
+    }
+    #segundoCampo{
+        width: 279px;
+        height: 50px;
+        max-height: none;
+        /* min-height: 330px;
+        max-height: 545px; */
+        display: flex;
+
+    }
+    .botonCopiar{
+        width: 279px;
+        height:67px;      
+    
+    }
+    
+}
+
+
+
+
